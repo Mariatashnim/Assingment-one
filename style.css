@@ -1,231 +1,270 @@
-body{
+body {
     font-family: 'Inter', sans-serif;
-    margin:0%;
+    margin: 0%;
 }
-.header-part{
+
+.header-part {
     text-align: center;
-    margin-top: 15% ;
-    
+    margin-top: 15%;
+
 
 }
-h1{
-    color:white;
+
+h1 {
+    color: white;
 
 }
-h4{
+
+h4 {
     font-weight: lighter;
-    color:white;
-   
-    
+    color: white;
+
+
 }
-.button{
+
+.button {
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
     background-image: linear-gradient(#cdcecb, #4a3fe7);
-    
+
 }
-.background{
+
+.background {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken, luminosity;
     background-image: url(images/donation13.jpg);
     box-shadow: 0 0 px 2px #282a2d;
     line-height: 1.4;
     background-repeat: no-repeat;
-    height:600px;
+    height: 600px;
     background-size: cover;
     overflow: hidden;
 }
 
-.donate{
+.donate {
     text-align: center;
     margin-top: 90px;
 }
-.box{
+
+.box {
     margin-top: 50px;
     margin-left: 20%;
-    display:flex;
-    
+    display: flex;
+
 }
-.first{
+
+.first {
     font-size: large;
-    color:#292828;
-    width:10%;
-    padding: 15px ;
+    color: #292828;
+    width: 10%;
+    padding: 15px;
     background-color: #f3f3f5;
-    margin:10px;
+    margin: 10px;
     box-shadow: 0px 1.5px 1px #05050526;
 }
-.modify{
+
+.modify {
 
     background-color: #fae9da;
-    color:#c29772;
-    border:3px solid #ceab8d;
+    color: #c29772;
+    border: 3px solid #ceab8d;
     border-radius: 3.5px;
 
 }
-.other{
+
+.other {
     color: #939296;
     font-weight: 500;
-    margin-top: 3% ;
+    margin-top: 3%;
     margin-left: 20%;
-    padding: .2% ;
-    width:60%;
-    box-shadow:  0px 1.5px 0px #05050526;
+    padding: .2%;
+    width: 60%;
+    box-shadow: 0px 1.5px 0px #05050526;
 }
-.donate-button{
+
+.donate-button {
     margin-top: 3%;
 
 
 }
-.plan{
-    text-align:center;
+
+.plan {
+    text-align: center;
     margin-top: 5%;
-    
+
 }
-.aim{
+
+.aim {
     margin-top: 5%;
-    display:flex;
+    display: flex;
     margin-left: 16%;
-    
-    
+
+
 }
-.plan-part{
-    text-align:left;
-    width:25%;
-    height:270px;   
+
+.plan-part {
+    text-align: left;
+    width: 25%;
+    height: 270px;
     margin-left: 13px;
     padding-left: 15px;
     border-radius: 5px;
     background-color: #fad3fa;
     box-shadow: #4242423d 0px 3px 8px;
 }
-.descript{
-   font-weight: 100; 
+
+.descript {
+    font-weight: 100;
 
 }
-.icone{
+
+.icone {
     margin-top: 10%;
     padding-left: 1px;
 
 
 
 }
-#different-color{
+
+#different-color {
     background-color: #d6f7f7;
 }
-#different-color1{
+
+#different-color1 {
     background-color: #e4f8d3;
 }
-.leftside{
+
+.leftside {
     margin-top: 5%;
-    display:flex;
+    display: flex;
     margin: 4%;
-    
-    
-    
+
+
+
 }
-.color{
-    color:black;
-    
+
+.color {
+    color: black;
+
 }
-.color1{
-    color:black;
-    margin-bottom: 50px;}
-.plan-part1{
-    
-    text-align:left;
-    width:50%;
-    height:200px;   
+
+.color1 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.plan-part1 {
+
+    text-align: left;
+    width: 50%;
+    height: 200px;
     margin-left: 2%;
     padding-left: 15px;
     border-radius: 5px;
 }
-.button1{
-    
+
+.button1 {
+
     text-decoration: none;
     padding: 10px 50px;
     border-radius: 5px;
     color: white;
     background-image: linear-gradient(#cdcecb, #4a3fe7);
 }
-.rightside{
+
+.rightside {
     margin-top: 15%;
-    display:flex;
+    display: flex;
     margin: 4%;
-    
-    
-    
+
+
+
 }
-.color2{
-    color:black;
+
+.color2 {
+    color: black;
     text-align: left;
-    
+
 }
-.color3{
-    color:black;
-    margin-bottom: 50px;}
-.plan-part2{
+
+.color3 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.plan-part2 {
     margin-top: 20%;
-    text-align:left;
-    width:50%;
-    height:200px;   
+    text-align: left;
+    width: 50%;
+    height: 200px;
     margin-right: 2%;
     padding-right: 15px;
     border-radius: 5px;
 }
-.button1{
-    
+
+.button1 {
+
     text-decoration: none;
     padding: 10px 50px;
     border-radius: 5px;
     color: white;
     background-image: linear-gradient(#cdcecb, #4a3fe7);
 }
-.plan1{
-    text-align:center;
-    margin-top: 20%;}
+
+.plan1 {
+    text-align: center;
+    margin-top: 20%;
+}
 
 
-.email{
-    padding: 50px 70px;
+.email {
+    padding: 70px 70px;
     margin-left: 20%;
     width: 50%;
-    height:20px;
-    text-align:center;
+    height: 20px;
+    text-align: center;
     background-color: #ceab8d;
 }
-.form{
-    margin-left: 16%;
+
+.form {
+    margin-top: -3.5%;
+    margin-left: 20%;
     text-align: center;
     display: flex;
     padding-right: -1px;
 }
-.enter{
-    text-align:left;
-    color:#292828;
-    width:35%;
-    padding: 1px 50px;
+
+.enter {
+    text-align: left;
+    color: #292828;
+    width: 35%;
+    padding: 2px 30px;
     background-color: #b3b3ff;
 
-    box-shadow: 0px 1.5px 1px #05050526;}
-    .sub{
-        
-        color:#ffffff;
-        width:10%;
-        padding: 1px 50px;
-        background-color: #42427a;
-        box-shadow: 0px 1.5px 1px #05050526;}
+    box-shadow: 0px 1.5px 1px #05050526;
+}
 
-.foter{
-    margin-top: 50px;
+.sub {
+
+    color: #ffffff;
+    width: 10%;
+    padding: 2px 50px;
+    background-color: #42427a;
+    box-shadow: 0px 1.5px 1px #05050526;
+}
+
+.foter {
+    margin-top: 70px;
     text-align: center;
     height: 50px;
-    background-image: linear-gradient(#7b7b7c, #42427a);
-
-
-
+    background-image: linear-gradient(#b8b8b9, #42427a);
 
 }
 
+.foter {
+    padding: 5px;
+    text-align: center;
+
+}
